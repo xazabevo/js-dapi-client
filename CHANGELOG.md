@@ -1,3 +1,12 @@
+## [0.17.3](https://github.com/dashevo/dapi-client/compare/v0.17.2...v0.17.3) (2021-02-04)
+
+
+### Bug Fixes
+
+* BLS was throwing an error inside `uncaughtException` handler ([#226](https://github.com/dashevo/dapi-client/issues/226))
+
+
+
 ## [0.17.2](https://github.com/dashevo/dapi-client/compare/v0.17.1...v0.17.2) (2020-12-30)
 
 
