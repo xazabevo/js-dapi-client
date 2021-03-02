@@ -6,7 +6,7 @@ const {
     WaitForStateTransitionResultResponse,
     Proof,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazabevo/dapi-grpc');
 const cbor = require('cbor');
 
 const waitForStateTransitionResultFactory = require('../../../../lib/methods/platform/waitForStateTransitionResultFactory');

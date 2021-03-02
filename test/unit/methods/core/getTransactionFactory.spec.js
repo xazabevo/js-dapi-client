@@ -4,9 +4,9 @@ const {
     GetTransactionResponse,
     CorePromiseClient,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazabevo/dapi-grpc');
 
-const grpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const grpcErrorCodes = require('@xazabevo/grpc-common/lib/server/error/GrpcErrorCodes');
 
 const getTransactionFactory = require('../../../../lib/methods/core/getTransactionFactory');
 

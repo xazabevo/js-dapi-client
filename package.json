@@ -1,7 +1,7 @@
 {
-  "name": "@dashevo/dapi-client",
+  "name": "@xazabevo/dapi-client",
   "version": "0.18.0-dev.3",
-  "description": "Client library used to access Dash DAPI endpoints",
+  "description": "Client library used to access Xazab DAPI endpoints",
   "main": "lib/DAPIClient.js",
   "contributors": [
     {
@@ -11,23 +11,23 @@
     },
     {
       "name": "Djavid Gabibiyan",
-      "email": "djavid@dash.org",
+      "email": "djavid@xazab.xyz",
       "url": "https://github.com/jawid-h"
     },
     {
       "name": "Anton Suprunchuk",
-      "email": "anton.suprunchuk@dash.org",
+      "email": "anton.suprunchuk@xazab.xyz",
       "url": "https://github.com/antouhou"
     },
     {
       "name": "Konstantin Shuplenkov",
-      "email": "konstantin.shuplenkov@dash.org",
+      "email": "konstantin.shuplenkov@xazab.xyz",
       "url": "https://github.com/shuplenkov"
     }
   ],
   "dependencies": {
-    "@dashevo/dapi-grpc": "~0.18.0-dev.3",
-    "@dashevo/dashcore-lib": "~0.19.21",
+    "@xazabevo/dapi-grpc": "~0.18.0-dev.3",
+    "@xazabevo/xazabcore-lib": "~0.19.21",
     "axios": "^0.19.2",
     "cbor": "^5.0.1",
     "lodash.sample": "^4.2.1"
@@ -59,7 +59,7 @@
     "webpack-cli": "^3.3.11"
   },
   "peerDependencies": {
-    "@dashevo/grpc-common": "^0.3.0"
+    "@xazabevo/grpc-common": "^0.3.0"
   },
   "files": [
     "docs",

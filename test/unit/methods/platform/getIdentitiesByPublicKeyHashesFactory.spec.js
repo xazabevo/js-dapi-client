@@ -4,9 +4,9 @@ const {
     GetIdentitiesByPublicKeyHashesRequest,
     GetIdentitiesByPublicKeyHashesResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazabevo/dapi-grpc');
 
-const getIdentityFixture = require('@dashevo/dpp/lib/test/fixtures/getIdentityFixture');
+const getIdentityFixture = require('@xazabevo/dpp/lib/test/fixtures/getIdentityFixture');
 
 const getIdentitiesByPublicKeyHashesFactory = require(
   '../../../../lib/methods/platform/getIdentitiesByPublicKeyHashesFactory',

@@ -4,11 +4,11 @@ const {
     BroadcastStateTransitionResponse,
     PlatformPromiseClient,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazabevo/dapi-grpc');
 
-const DashPlatformProtocol = require('@dashevo/dpp');
+const XazabPlatformProtocol = require('@xazabevo/dpp');
 
-const getDataContractFixture = require('@dashevo/dpp/lib/test/fixtures/getDataContractFixture');
+const getDataContractFixture = require('@xazabevo/dpp/lib/test/fixtures/getDataContractFixture');
 
 const broadcastStateTransitionFactory = require('../../../../lib/methods/platform/broadcastStateTransitionFactory');
 
@@ -27,7 +27,7 @@ describe('broadcastStateTransitionFactory', () => {
     };
 
     const dataContractFixture = getDataContractFixture();
-    const dpp = new DashPlatformProtocol();
+    const dpp = new XazabPlatformProtocol();
     stateTransitionFixture = dpp.dataContract.createStateTransition(dataContractFixture);
 
     options = {

@@ -1,5 +1,5 @@
 const cbor = require('cbor');
-const Identifier = require('@dashevo/dpp/lib/Identifier');
+const Identifier = require('@xazabevo/dpp/lib/Identifier');
 
 const {
   v0: {
@@ -7,9 +7,9 @@ const {
     GetDocumentsRequest,
     GetDocumentsResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazabevo/dapi-grpc');
 
-const getDocumentsFixture = require('@dashevo/dpp/lib/test/fixtures/getDocumentsFixture');
+const getDocumentsFixture = require('@xazabevo/dpp/lib/test/fixtures/getDocumentsFixture');
 
 const getDocumentsFactory = require('../../../../lib/methods/platform/getDocumentsFactory');
 
